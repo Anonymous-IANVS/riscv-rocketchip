@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: chisel3-core
+Specification-Version: 3.5.0
+Specification-Vendor: edu.berkeley.cs
+Implementation-Title: chisel3-core
+Implementation-Version: 3.5.0
+Implementation-Vendor: edu.berkeley.cs
+Implementation-Vendor-Id: edu.berkeley.cs
+

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: data-class
+Implementation-Version: 0.2.5
+Specification-Vendor: io.github.alexarchambault
+Specification-Title: data-class
+Implementation-Vendor-Id: io.github.alexarchambault
+Specification-Version: 0.2.5
+Implementation-URL: https://github.com/alexarchambault/data-class
+Implementation-Vendor: io.github.alexarchambault
+

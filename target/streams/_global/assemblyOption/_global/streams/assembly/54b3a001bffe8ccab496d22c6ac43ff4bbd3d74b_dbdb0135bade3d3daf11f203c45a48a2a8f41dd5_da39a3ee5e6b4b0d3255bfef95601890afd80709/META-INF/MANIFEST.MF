@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven Bundle Plugin
+Built-By: Stephen
+Build-Jdk: 11
+Specification-Title: Joda-Convert
+Specification-Version: 2.2.0
+Specification-Vendor: Joda.org
+Implementation-Title: Joda-Convert
+Implementation-Version: 2.2.0
+Implementation-Vendor-Id: org.joda
+Implementation-Vendor: Joda.org
+Implementation-URL: https://www.joda.org/joda-convert/
+Bnd-LastModified: 1547657938230
+Bundle-Description: Library to convert Objects to and from String
+Bundle-DocURL: https://www.joda.org
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Joda-Convert
+Bundle-SymbolicName: org.joda.convert
+Bundle-Vendor: Joda.org
+Bundle-Version: 2.2.0
+Export-Package: org.joda.convert;version="2.2.0",org.joda.convert.factor
+ y;uses:="org.joda.convert";version="2.2.0"
+Import-Package: org.joda.convert,org.joda.convert.factory
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Tool: Bnd-4.1.0.201810181252
+

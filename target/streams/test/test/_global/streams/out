@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(freechips.rocketchip.transforms.naming.RenameDesiredNamesSpec, org.scalatest.tools.Framework$$anon$1@212496ba, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(generatorTests.StageGeneratorSpec, org.scalatest.tools.Framework$$anon$1@212496ba, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(freechips.rocketchip.linting.rule.LintConflictingModuleNamesSpec, org.scalatest.tools.Framework$$anon$1@212496ba, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 16 seconds, 812 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 7[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 3, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 7, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	freechips.rocketchip.linting.rule.LintConflictingModuleNamesSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	generatorTests.StageGeneratorSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	freechips.rocketchip.transforms.naming.RenameDesiredNamesSpec[0m

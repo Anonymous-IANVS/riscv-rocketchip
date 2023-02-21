@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: firrtl
+Specification-Version: 1.5.0
+Specification-Vendor: edu.berkeley.cs
+Implementation-Title: firrtl
+Implementation-Version: 1.5.0
+Implementation-Vendor: edu.berkeley.cs
+Implementation-Vendor-Id: edu.berkeley.cs
+Main-Class: firrtl.stage.FirrtlMain
+

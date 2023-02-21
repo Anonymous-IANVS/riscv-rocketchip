@@ -1,0 +1,4 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mRenameDesiredNamesSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- It should rename modules if it can and ignore strategies which fail to result in unique names[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- It should keep modules names stable between runs[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- It should error if renaming to an already existing module name[0m[0m

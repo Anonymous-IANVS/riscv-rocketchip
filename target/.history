@@ -1,0 +1,4 @@
+run docs/mdoc
+show discoveredMainClasses
+run docs/mdoc
+docs/mdoc

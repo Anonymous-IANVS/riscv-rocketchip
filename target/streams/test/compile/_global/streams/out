@@ -1,0 +1,10 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/test/scala/linting/rule/LintConflictingModuleNamesSpec.scala:16:51: object UnknownForm in package firrtl is deprecated (since FIRRTL 1.3): Mix-in the DependencyAPIMigration trait into your Transform and specify its Dependency API dependencies. See: https://bit.ly/2Voppre[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val state = CircuitState(Parser.parse(input), UnknownForm, annos)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/test/scala/linting/rule/LintConflictingModuleNamesSpec.scala:27:51: object UnknownForm in package firrtl is deprecated (since FIRRTL 1.3): Mix-in the DependencyAPIMigration trait into your Transform and specify its Dependency API dependencies. See: https://bit.ly/2Voppre[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val state = CircuitState(Parser.parse(input), UnknownForm, annos)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/test/scala/transforms/naming/RenameDesiredNamesSpec.scala:29:60: object UnknownForm in package firrtl is deprecated (since FIRRTL 1.3): Mix-in the DependencyAPIMigration trait into your Transform and specify its Dependency API dependencies. See: https://bit.ly/2Voppre[0m
+[0m[[0m[33mwarn[0m] [0m[0m    renameNames(CircuitState(Parser.parse(testCase.input), UnknownForm, testCase.annos))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m

@@ -1,0 +1,1017 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tile/BusErrorUnit.scala:18:7: Unable to determine primary constructor![0m
+[0m[[0m[33mwarn[0m] [0m[0mtrait BusErrors extends Bundle {[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Bundles.scala:163:14: Unable to determine primary constructor![0m
+[0m[[0m[33mwarn[0m] [0m[0msealed trait TLChannel extends TLBundleBase {[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Bundles.scala:167:14: Unable to determine primary constructor![0m
+[0m[[0m[33mwarn[0m] [0m[0msealed trait TLDataChannel extends TLChannel[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Bundles.scala:168:14: Unable to determine primary constructor![0m
+[0m[[0m[33mwarn[0m] [0m[0msealed trait TLAddrChannel extends TLDataChannel[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/ECC.scala:211:7: Unable to determine primary constructor![0m
+[0m[[0m[33mwarn[0m] [0m[0mtrait CanHaveErrors extends Bundle {[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/ElaborationArtefactAnnotation.scala:77:98: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: (_, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m        many.tail.foldLeft(Seq[Token](MemoryPathToken(many.head.asInstanceOf[ReferenceTarget]))) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/apb/RegisterRouter.scala:34:11: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (in.fire())  { taken := Bool(true)  }[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/apb/RegisterRouter.scala:35:11: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (out.fire()) { taken := Bool(false) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/apb/ToTL.scala:74:17: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (out.a.fire()){in_flight_reg := true.B}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/apb/ToTL.scala:75:17: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (out.d.fire()){in_flight_reg := false.B}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/apb/ToTL.scala:99:17: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (out.a.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/Deinterleaver.scala:94:40: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m            val inc = enq_OH(i) && out.r.fire() && out.r.bits.last[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/Deinterleaver.scala:95:39: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m            val dec = deq_OH(i) && in.r.fire() && in.r.bits.last[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/Deinterleaver.scala:107:30: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (!locked || (in.r.fire() && in.r.bits.last)) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/Deinterleaver.scala:119:34: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m          q.deq.ready := s && in.r.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/Delayer.scala:22:13: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (sink.fire()) { hold := Bool(false) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/Fragmenter.scala:124:15: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (out.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/Fragmenter.scala:154:17: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (out.aw.fire()) { wbeats_latched := Bool(false) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/Fragmenter.scala:168:33: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      w_counter := w_todo - out.w.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/Fragmenter.scala:169:20: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      assert (!out.w.fire() || w_todo =/= UInt(0)) // underflow impossible[0m
+[0m[[0m[33mwarn[0m] [0m[0m                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/Fragmenter.scala:195:26: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (sel && out.b.fire()) { reg := Mux(b_last, UInt(0), reg | out.b.bits.resp) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/SRAM.scala:76:15: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (in. b.fire()) { w_full := Bool(false) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/SRAM.scala:77:14: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (in.aw.fire()) { w_full := Bool(true) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/SRAM.scala:79:14: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (in.aw.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/SRAM.scala:86:14: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (in.aw.fire() && w_sel0) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/SRAM.scala:103:15: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (in. r.fire()) { r_full := Bool(false) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/SRAM.scala:104:14: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (in.ar.fire()) { r_full := Bool(true) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/SRAM.scala:106:14: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (in.ar.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/SRAM.scala:112:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val ren = in.ar.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/ToTL.scala:116:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (in.ar.fire() && s) { r := r + UInt(1) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/ToTL.scala:152:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (in.aw.fire() && s) { r := r + UInt(1) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/ToTL.scala:191:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (in.b.fire() && s) { r := r + UInt(1) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/Xbar.scala:126:37: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m              arSel(id) && io_in(i).ar.fire(),[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/Xbar.scala:127:36: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m              rSel(id) && io_in(i).r.fire() && io_in(i).r.bits.last)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/Xbar.scala:130:37: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m              awSel(id) && io_in(i).aw.fire(),[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/Xbar.scala:131:36: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m              bSel(id) && io_in(i).b.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/Xbar.scala:148:26: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (awIn(i).io.enq.fire()) { latched := Bool(true) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/Xbar.scala:149:21: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (in(i).aw.fire()) { latched := Bool(false) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/Xbar.scala:169:27: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (awOut(i).io.enq.fire()) { latched := Bool(true) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/Xbar.scala:170:22: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (out(i).aw.fire()) { latched := Bool(false) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/amba/axi4/Xbar.scala:274:11: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (sink.fire()) { idle := Bool(true) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/debug/Debug.scala:816:22: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      }.elsewhen (io.innerCtrl.fire()){[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/debug/Debug.scala:826:22: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      }.elsewhen (io.innerCtrl.fire()){[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/debug/Debug.scala:863:20: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    }.elsewhen (io.innerCtrl.fire()){[0m
+[0m[[0m[33mwarn[0m] [0m[0m                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/debug/Debug.scala:890:24: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val resumereq = io.innerCtrl.fire() && io.innerCtrl.bits.resumereq[0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/debug/Debug.scala:922:16: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (io.innerCtrl.fire() && io.innerCtrl.bits.ackhavereset) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/debug/DebugTransport.scala:146:16: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.dmi.resp.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/debug/DebugTransport.scala:203:39: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  assert(!(dmiReqValidCheck && io.dmi.req.fire()), "Conflicting updates for dmiReqValidReg, should not happen.");[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/debug/DebugTransport.scala:220:16: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.dmi.req.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/debug/Periphery.scala:200:7: method apply in object stop is deprecated (since Chisel 3.5): Non-zero return codes are not well supported. Please use assert(false.B) if you want to indicate a failure.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      stop(1)[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/debug/Periphery.scala:236:7: method apply in object stop is deprecated (since Chisel 3.5): Non-zero return codes are not well supported. Please use assert(false.B) if you want to indicate a failure.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      stop(1)[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/tilelink/Error.scala:70:13: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (da.fire() && da.bits.opcode === Grant) { idle := Bool(false) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/tilelink/Error.scala:71:16: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (in.e.fire()) { idle := Bool(true) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/tilelink/MaskROM.scala:33:21: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    rom.io.me := in.a.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/tilelink/MaskROM.scala:38:49: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val d_data = rom.io.q holdUnless RegNext(in.a.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/tilelink/MaskROM.scala:41:14: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (in.d.fire()) { d_full := Bool(false) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/tilelink/MaskROM.scala:42:14: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (in.a.fire()) { d_full := Bool(true)  }[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/tilelink/MaskROM.scala:46:14: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (in.a.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/tilelink/PhysicalFilter.scala:227:41: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      flight := flight + (a_first && in.a.fire()) - (d_last && !d_rack && in.d.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/tilelink/PhysicalFilter.scala:227:78: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      flight := flight + (a_first && in.a.fire()) - (d_last && !d_rack && in.d.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/tilelink/PhysicalFilter.scala:281:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (in.a.fire() && a_first) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/tilelink/PhysicalFilter.scala:294:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (in.e.fire() && isMyId) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/devices/tilelink/TestRAM.scala:53:14: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (in.a.fire() && hasData) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/diplomacy/CloneModule.scala:26:36: lazy value getPorts in class RawModule is deprecated (since Chisel 3.5): Use DataMirror.modulePorts instead. this API will be removed in Chisel 3.6[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val io = IO(new ClonePorts(model.getPorts.map(_.id): _*))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/diplomacy/LazyModule.scala:335:54: type MultiIOModule in package chisel3 is deprecated (since Chisel 3.5): MultiIOModule is now just Module[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass LazyModuleImp(val wrapper: LazyModule) extends MultiIOModule with LazyModuleImpLike {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/diplomacy/LazyModule.scala:503:44: method flip in class AddDirectionToData is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val element = if (flip) data.cloneType.flip() else data.cloneType[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/groundtest/TraceGen.scala:225:37: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  reqTimer.io.start.valid := io.mem.req.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/groundtest/TraceGen.scala:384:46: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val canSendFreshReq = (!reqValid || io.mem.req.fire()) &&[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/groundtest/TraceGen.scala:520:21: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  .elsewhen (io.mem.req.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/groundtest/TraceGen.scala:535:16: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.mem.req.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/linting/LintAnnotation.scala:19:29: method info in class FileInfo is deprecated (since FIRRTL 1.4): Use FileInfo.unescaped instead. FileInfo.info will be removed in FIRRTL 1.5.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case f: FileInfo => f.info.serialize match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/linting/LintReporter.scala:13:100: trait PreservesAll in package options is deprecated (since FIRRTL 1.4): Use an explicit `override def invalidates` returning false. This will be removed in FIRRTL 1.5.[0m
+[0m[[0m[33mwarn[0m] [0m[0mfinal class LintReporter extends Transform with RegisteredLibrary with DependencyAPIMigration with PreservesAll[Transform] {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/linting/rule/LintRule.scala:15:99: trait PreservesAll in package options is deprecated (since FIRRTL 1.4): Use an explicit `override def invalidates` returning false. This will be removed in FIRRTL 1.5.[0m
+[0m[[0m[33mwarn[0m] [0m[0mabstract class LintRule extends Transform with RegisteredLibrary with DependencyAPIMigration with PreservesAll[Transform] {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/linting/rule/package.scala:45:9: method info in class FileInfo is deprecated (since FIRRTL 1.4): Use FileInfo.unescaped instead. FileInfo.info will be removed in FIRRTL 1.5.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      f.info.serialize match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/linting/rule/package.scala:46:43: method apply in object FileInfo is deprecated (since FIRRTL 1.4): Use FileInfo.fromUnEscaped instead. FileInfo.apply will be removed in FIRRTL 1.5.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case infoRegex(scala, fir) => Seq(FileInfo(StringLit(scala)), FileInfo(StringLit(fir)))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/linting/rule/package.scala:46:71: method apply in object FileInfo is deprecated (since FIRRTL 1.4): Use FileInfo.fromUnEscaped instead. FileInfo.apply will be removed in FIRRTL 1.5.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case infoRegex(scala, fir) => Seq(FileInfo(StringLit(scala)), FileInfo(StringLit(fir)))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/linting/rule/package.scala:67:20: method info in class FileInfo is deprecated (since FIRRTL 1.4): Use FileInfo.unescaped instead. FileInfo.info will be removed in FIRRTL 1.5.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val file = i.info.serialize.split(' ').head[0m
+[0m[[0m[33mwarn[0m] [0m[0m                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/DCache.scala:162:38: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val s1_valid = Reg(next=io.cpu.req.fire(), init=Bool(false))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/DCache.scala:163:36: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val s1_probe = Reg(next=tl_out.b.fire(), init=Bool(false))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/DCache.scala:164:54: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val probe_bits = RegEnable(tl_out.b.bits, tl_out.b.fire()) // TODO has data now :([0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/DCache.scala:168:47: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val s1_tlb_req_valid = RegNext(tlb_port.req.fire(), false.B)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/DCache.scala:180:23: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (!tlb_port.req.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/DCache.scala:606:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (tl_out_a.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/DCache.scala:649:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (tl_out.d.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/DCache.scala:691:19: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  assert(tl_out.e.fire() === (tl_out.d.fire() && d_first && grantIsCached))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/DCache.scala:691:40: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  assert(tl_out.e.fire() === (tl_out.d.fire() && d_first && grantIsCached))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/DCache.scala:776:59: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val s1_release_data_valid = Reg(next = dataArb.io.in(2).fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/DCache.scala:778:57: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  releaseRejected := s2_release_data_valid && !tl_out_c.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/DCache.scala:854:22: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (tl_out_c.fire() && c_first) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/DCache.scala:889:26: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (metaArb.io.in(4).fire()) { release_state := s_ready }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/DCache.scala:924:34: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  io.cpu.replay_next := tl_out.d.fire() && grantIsUncachedData && !cacheParams.separateUncachedResp[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/DCache.scala:988:38: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  s1_flush_valid := metaArb.io.in(5).fire() && !s1_flush_valid && !s2_flush_valid_pre_tag_ecc && release_state === s_ready && !release_ack_wait[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/DCache.scala:1005:20: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (tl_out_a.fire() && !s2_uncached) { flushed := false }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/DCache.scala:1053:37: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  io.cpu.perf.tlbMiss := io.ptw.req.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/DCache.scala:1077:22: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (tl_out.d.fire() && grantIsRefill) { refill_count := refill_count + 1 }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/DCache.scala:1086:25: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      (RegNext(tl_out_c.fire() && inWriteback && s2_data_error),[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/DCache.scala:1103:37: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    io.errors.bus.valid := tl_out.d.fire() && (tl_out.d.bits.denied || tl_out.d.bits.corrupt)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/Frontend.scala:131:40: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  s2_replay := (s2_valid && !fq.io.enq.fire()) || RegNext(s2_replay && !s0_valid, true.B)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/Frontend.scala:220:63: method asUInt in class fromBigIntToLiteral is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val rviBranch = rviBits(6,0) === Instructions.BEQ.value.asUInt()(6,0)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/Frontend.scala:221:61: method asUInt in class fromBigIntToLiteral is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val rviJump = rviBits(6,0) === Instructions.JAL.value.asUInt()(6,0)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/Frontend.scala:222:62: method asUInt in class fromBigIntToLiteral is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val rviJALR = rviBits(6,0) === Instructions.JALR.value.asUInt()(6,0)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/Frontend.scala:254:46: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        btb.io.ras_update.valid := fq.io.enq.fire() && !wrong_path && (prevRVI && (rviCall || rviReturn) || valid && (rvcCall || rvcReturn))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/Frontend.scala:261:27: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m          when (fq.io.enq.fire() && taken && !predictBranch && !predictJump && !predictReturn) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/Frontend.scala:276:49: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m          btb.io.bht_advance.valid := fq.io.enq.fire() && !wrong_path[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/Frontend.scala:285:25: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (fq.io.enq.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/Frontend.scala:300:44: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      btb.io.btb_update.valid := fq.io.enq.fire() && !wrong_path && fetch_bubble_likely && updateBTB[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/Frontend.scala:314:21: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (fq.io.enq.fire() && (s2_btb_taken || taken)) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/Frontend.scala:322:25: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (fq.io.enq.fire()) { s2_redirect := true }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/Frontend.scala:336:19: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (fq.io.enq.fire() && s2_tlb_resp.gf.inst) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/Frontend.scala:350:37: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  io.cpu.perf.tlbMiss := io.ptw.req.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/HellaCache.scala:332:50: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  io.resp := tag_array.read(io.read.bits.idx, io.read.fire()).map(rstVal.fromBits(_))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/ICache.scala:161:35: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val s0_slaveValid = tl_in.map(_.a.fire()).getOrElse(false.B)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/ICache.scala:166:21: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val s0_valid = io.req.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/ICache.scala:180:28: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val refill_fire = tl_out.a.fire() && !send_hint[0m
+[0m[[0m[33mwarn[0m] [0m[0m                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/ICache.scala:189:32: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val refill_one_beat = tl_out.d.fire() && edge_out.hasData(tl_out.d.bits)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/ICache.scala:228:33: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  io.errors.bus.valid := tl_out.d.fire() && (tl_out.d.bits.denied || tl_out.d.bits.corrupt)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/ICache.scala:426:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (tl_out.a.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/ICache.scala:436:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (tl_out.d.fire() && !refill_one_beat) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/ICache.scala:450:36: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ccover(refill_valid && (tl_out.d.fire() && !refill_one_beat), "PREFETCH_D_BEFORE_MISS_D", "I$ prefetch resolves before miss")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/ICache.scala:451:37: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ccover(!refill_valid && (tl_out.d.fire() && !refill_one_beat), "PREFETCH_D_AFTER_MISS_D", "I$ prefetch resolves after miss")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/ICache.scala:452:19: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ccover(tl_out.a.fire() && hint_outstanding, "PREFETCH_D_AFTER_MISS_A", "I$ prefetch resolves after second miss")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/Multiplier.scala:160:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.resp.fire() || io.kill) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/Multiplier.scala:163:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.req.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/NBDcache.scala:114:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.req.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/NBDcache.scala:119:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.mem_access.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/NBDcache.scala:130:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.resp.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/NBDcache.scala:207:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.mem_acquire.fire()) { // s_refill_req[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/NBDcache.scala:216:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.wb_req.fire()) { // s_wb_req[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/NBDcache.scala:265:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.meta_write.fire()) { meta_hazard := 1 }[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/NBDcache.scala:433:21: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val free_sdq = io.replay.fire() && isWrite(io.replay.bits.cmd)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/NBDcache.scala:463:14: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (io.data_req.fire() && io.meta_read.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/NBDcache.scala:463:36: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (io.data_req.fire() && io.meta_read.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/NBDcache.scala:480:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.req.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/NBDcache.scala:573:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.req.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/NBDcache.scala:579:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.meta_read.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/NBDcache.scala:604:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.wb_req.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/NBDcache.scala:613:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.meta_write.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/NBDcache.scala:696:34: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val s1_valid = Reg(next=io.cpu.req.fire(), init=Bool(false))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/NBDcache.scala:884:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (mshrs.io.req.fire()) { replacer.miss }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/NBDcache.scala:908:38: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  mshrs.io.mem_grant.valid := tl_out.d.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/NBDcache.scala:1013:33: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  io.cpu.perf.tlbMiss := io.ptw.req.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/PTW.scala:320:45: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val s0_valid = !l2_refill && arb.io.out.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/PTW.scala:418:24: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (arb.io.out.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/PTW.scala:499:20: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    Mux(arb.io.out.fire(), Mux(arb.io.out.bits.bits.stage2, makeHypervisorRootPTE(io.dpath.hgatp, io.dpath.vsatp.ppn, r_pte), makePTE(satp.ppn, r_pte)),[0m
+[0m[[0m[33mwarn[0m] [0m[0m                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/RocketCore.scala:608:56: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  div.io.kill := killm_common && Reg(next = div.io.req.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/RocketCore.scala:680:40: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val ll_wen = Wire(init = div.io.resp.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/RocketCore.scala:683:24: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (io.rocc.resp.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/RocketCore.scala:772:22: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    else div.io.resp.fire() && div.io.resp.bits.tag === r || dmem_resp_replay && dmem_resp_xpu && dmem_resp_waddr === r[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/ScratchpadSlavePort.scala:50:17: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (tl_in.d.fire()) { state := s_ready }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/ScratchpadSlavePort.scala:55:17: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (tl_in.a.fire()) { acq := tl_in.a.bits }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/SimpleHellaCacheIF.scala:81:34: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  inflight := (inflight | Mux(io.req.fire(), next_inflight_onehot, UInt(0))) &[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/SimpleHellaCacheIF.scala:84:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.req.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/SimpleHellaCacheIF.scala:89:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.replay.fire()) { replaying := Bool(true) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/SimpleHellaCacheIF.scala:116:30: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val s0_req_fire = io.cache.req.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/TLB.scala:498:17: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when(io.ptw.req.fire() && io.ptw.req.bits.valid) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/TLB.scala:504:14: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (io.req.fire() && tlb_miss) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/TLB.scala:545:13: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when(io.req.fire() && vsatp_mode_mismatch) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/rocket/TLB.scala:553:19: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ccover(io.ptw.req.fire(), "MISS", "TLB miss")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/stage/phases/AddDefaultTests.scala:26:42: trait PreservesAll in package options is deprecated (since FIRRTL 1.4): Use an explicit `override def invalidates` returning false. This will be removed in FIRRTL 1.5.[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass AddDefaultTests extends Phase with PreservesAll[Phase] with HasRocketChipStageUtils {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/stage/phases/Checks.scala:13:33: trait PreservesAll in package options is deprecated (since FIRRTL 1.4): Use an explicit `override def invalidates` returning false. This will be removed in FIRRTL 1.5.[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass Checks extends Phase with PreservesAll[Phase] {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/stage/phases/GenerateArtefacts.scala:12:44: trait PreservesAll in package options is deprecated (since FIRRTL 1.4): Use an explicit `override def invalidates` returning false. This will be removed in FIRRTL 1.5.[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass GenerateArtefacts extends Phase with PreservesAll[Phase] with HasRocketChipStageUtils {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/stage/phases/GenerateFirrtlAnnos.scala:13:46: trait PreservesAll in package options is deprecated (since FIRRTL 1.4): Use an explicit `override def invalidates` returning false. This will be removed in FIRRTL 1.5.[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass GenerateFirrtlAnnos extends Phase with PreservesAll[Phase] with HasRocketChipStageUtils {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/stage/phases/GenerateROMs.scala:14:39: trait PreservesAll in package options is deprecated (since FIRRTL 1.4): Use an explicit `override def invalidates` returning false. This will be removed in FIRRTL 1.5.[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass GenerateROMs extends Phase with PreservesAll[Phase] with HasRocketChipStageUtils {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/stage/phases/GenerateTestSuiteMakefrags.scala:13:53: trait PreservesAll in package options is deprecated (since FIRRTL 1.4): Use an explicit `override def invalidates` returning false. This will be removed in FIRRTL 1.5.[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass GenerateTestSuiteMakefrags extends Phase with PreservesAll[Phase] with HasRocketChipStageUtils {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/stage/phases/PreElaboration.scala:18:41: trait PreservesAll in package options is deprecated (since FIRRTL 1.4): Use an explicit `override def invalidates` returning false. This will be removed in FIRRTL 1.5.[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass PreElaboration extends Phase with PreservesAll[Phase] with HasRocketChipStageUtils {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/stage/phases/TransformAnnotations.scala:13:47: trait PreservesAll in package options is deprecated (since FIRRTL 1.4): Use an explicit `override def invalidates` returning false. This will be removed in FIRRTL 1.5.[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass TransformAnnotations extends Phase with PreservesAll[Phase] with HasRocketChipStageUtils {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/system/RocketChipStageGenerator.scala:28:42: trait PreservesAll in package options is deprecated (since FIRRTL 1.4): Use an explicit `override def invalidates` returning false. This will be removed in FIRRTL 1.5.[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass RocketChipStage extends Stage with PreservesAll[Phase] {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tile/FPU.scala:757:31: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val ex_cp_valid = io.cp_req.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tile/LazyRoCC.scala:143:9: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (cmd.fire() && (doWrite || doAccum)) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tile/LazyRoCC.scala:153:16: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.mem.req.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tile/LazyRoCC.scala:208:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.cmd.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tile/LazyRoCC.scala:216:13: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (ptw.req.fire()) { state := s_ptw_resp }[0m
+[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tile/LazyRoCC.scala:223:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.resp.fire()) { state := s_idle }[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tile/LazyRoCC.scala:292:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.cmd.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tile/LazyRoCC.scala:301:16: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (tl_out.a.fire()) { state := s_gnt }[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tile/LazyRoCC.scala:303:16: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (tl_out.d.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tile/LazyRoCC.scala:322:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.resp.fire()) { state := s_idle }[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/AddressAdjuster.scala:284:33: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (a_first && parent.a.fire() && a_adjustable) { flight(parent.a.bits.source) := true.B  }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/AddressAdjuster.scala:285:33: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (d_first && parent.d.fire())                 { flight(parent.d.bits.source) := false.B }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/AddressAdjuster.scala:289:57: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m          val local = RegEnable(a_dynamic_local, parent.a.fire() && a_sel)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Arbiter.scala:179:9: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (sink.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Arbiter.scala:191:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (!sink.fire()) { printf("TestRobin: idle (%d %d)\n", valid, ready) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Arbiter.scala:206:9: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (sink.fire()) { (0 until numSources).foreach(assertLowest(_)) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Arbiter.scala:221:9: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (sink.fire()) { (0 until numSources).foreach(assertHighest(_)) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/AtomicAutomata.scala:174:15: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (source_i.fire() && !a_isSupported) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/AtomicAutomata.scala:194:15: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (source_c.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/AtomicAutomata.scala:216:19: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (out.d.fire() && d_first) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Broadcast.scala:113:40: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        tracker.e_last := select && in.e.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Broadcast.scala:142:37: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        tracker.d_last := select && d_normal.fire() && d_response && d_last[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Broadcast.scala:143:44: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        tracker.probedack := select && out.d.fire() && d_drop[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Broadcast.scala:170:28: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val clearOH = Mux(in.c.fire() && (c_probeack || c_probeackdata) && CisN, whoC, 0.U)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Broadcast.scala:175:33: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        tracker.probenack := in.c.fire() && c_probeack && select[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Broadcast.scala:176:33: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        tracker.probesack := in.c.fire() && select && (c_probeack || c_probeackdata) && ([0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Broadcast.scala:227:16: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (in.b.fire()) { probe_todo := probe_todo & ~probe_next }[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Broadcast.scala:260:23: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (filter.io.response.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Broadcast.scala:270:28: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val sack = filter.io.response.fire() && leaveB && others =/= 0.U[0m
+[0m[[0m[33mwarn[0m] [0m[0m                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Broadcast.scala:272:42: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        tracker.probe.valid := filter.io.response.fire() && select[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Broadcast.scala:353:67: type MultiIOModule in package chisel3 is deprecated (since Chisel 3.5): MultiIOModule is now just Module[0m
+[0m[[0m[33mwarn[0m] [0m[0mabstract class ProbeFilter(val params: ProbeFilterParams) extends MultiIOModule {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Broadcast.scala:437:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.in_a.fire() && io.in_a_first) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/CacheCork.scala:118:34: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        pool.io.free.valid := in.e.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/CacheCork.scala:124:35: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        pool.io.alloc.ready := in.d.fire() && d_first && d_grant[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/CacheCork.scala:143:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (in.a.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Edges.scala:241:62: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def first(x: DecoupledIO[TLChannel]): Bool = first(x.bits, x.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Edges.scala:245:60: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def last(x: DecoupledIO[TLChannel]): Bool = last(x.bits, x.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Edges.scala:249:60: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def done(x: DecoupledIO[TLChannel]): Bool = done(x.bits, x.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Edges.scala:256:84: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def firstlast(x: DecoupledIO[TLChannel]): (Bool, Bool, Bool) = firstlast(x.bits, x.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Edges.scala:263:82: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def count(x: DecoupledIO[TLChannel]): (Bool, Bool, Bool, UInt) = count(x.bits, x.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Edges.scala:270:88: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def addr_inc(x: DecoupledIO[TLChannel]): (Bool, Bool, Bool, UInt) = addr_inc(x.bits, x.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Edges.scala:309:19: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val a_inc = x.a.fire() && a_first && a_request[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Edges.scala:310:19: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val b_inc = x.b.fire() && b_first && b_request[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Edges.scala:311:19: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val c_inc = x.c.fire() && c_first && c_request[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Edges.scala:312:19: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val d_inc = x.d.fire() && d_first && d_request[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Edges.scala:313:19: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val e_inc = x.e.fire() && e_first && e_request[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Edges.scala:316:19: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val a_dec = x.a.fire() && a_last && a_response[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Edges.scala:317:19: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val b_dec = x.b.fire() && b_last && b_response[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Edges.scala:318:19: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val c_dec = x.c.fire() && c_last && c_response[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Edges.scala:319:19: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val d_dec = x.d.fire() && d_last && d_response[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Edges.scala:320:19: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val e_dec = x.e.fire() && e_last && e_response[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/ErrorEvaluator.scala:53:16: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (in.a.fire()) { inject_map.write(in.a.bits.source, inject_now) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/ErrorEvaluator.scala:55:64: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val bypass = Bool(edgeOut.manager.minLatency == 0) && in.a.fire() && in.a.bits.source === in.d.bits.source[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/ErrorEvaluator.scala:62:17: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (out.d.fire()) { r_detect := d_detect }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/ErrorEvaluator.scala:65:38: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      assert (Bool(!testOn)  || !out.d.fire() || !d_last || !d_inject ||  d_detect || d_hint, "Denied/Corrupt flag was not set!")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/ErrorEvaluator.scala:66:38: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      assert (Bool(!testOff) || !out.d.fire() || !d_last ||  d_inject || !d_detect, "Denied/Corrupt flag was set!")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/FIFOFixer.scala:72:27: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (a_first && in.a.fire()) { flight(in.a.bits.source) := !a_notFIFO }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/FIFOFixer.scala:73:27: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (d_first && in.d.fire()) { flight(in.d.bits.source) := Bool(false) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/FIFOFixer.scala:77:40: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        val id    = RegEnable(a_id, in.a.fire() && a_sel && !a_notFIFO)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/FIFOFixer.scala:111:27: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (a_first && in.a.fire() && !a_notFIFO)  {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/FIFOFixer.scala:114:27: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (d_first && in.d.fire())  {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Fragmenter.scala:208:19: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (out.d.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Fragmenter.scala:232:21: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m          when (out.d.fire()) { r_denied := d_denied }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Fragmenter.scala:300:19: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (out.a.fire()) { gennum := new_gennum }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Fuzzer.scala:29:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.alloc.fire()) { clr := UIntToOH(io.alloc.bits) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Fuzzer.scala:32:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.free.fire()) { set := UIntToOH(io.free.bits) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Fuzzer.scala:201:43: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    idMap.io.free.valid := d_first && out.d.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Fuzzer.scala:212:31: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    inc_beat := !legal || out.a.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Fuzzer.scala:215:17: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (out.a.fire() && a_last) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Fuzzer.scala:219:17: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (out.d.fire() && d_last) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:383:38: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val a_first = edge.first(a.bits, a.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:396:11: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (a.fire() && a_first) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:406:38: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val b_first = edge.first(b.bits, b.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:419:11: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (b.fire() && b_first) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:459:70: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val a_first = bundle.a.valid && edge.first(bundle.a.bits, bundle.a.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:460:70: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val d_first = bundle.d.valid && edge.first(bundle.d.bits, bundle.d.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:465:36: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val my_clr_resp_pend = (bundle.d.fire() && my_d_first_beat)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:466:36: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val my_set_resp_pend = (bundle.a.fire() && my_a_first_beat && !my_clr_resp_pend)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:511:38: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val c_first = edge.first(c.bits, c.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:524:11: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (c.fire() && c_first) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:534:38: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val d_first = edge.first(d.bits, d.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:549:11: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (d.fire() && d_first) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:618:52: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val a_first = edge.first(bundle.a.bits, bundle.a.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:620:52: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val d_first = edge.first(bundle.d.bits, bundle.d.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:652:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (bundle.a.fire() && a_first && edge.isRequest(bundle.a.bits)) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:675:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (bundle.d.fire() && d_first && edge.isResponse(bundle.d.bits) && !d_release_ack) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:712:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (bundle.a.fire() || bundle.d.fire()) { watchdog := 0.U }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:712:37: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (bundle.a.fire() || bundle.d.fire()) { watchdog := 0.U }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:730:52: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val c_first = edge.first(bundle.c.bits, bundle.c.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:731:52: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val d_first = edge.first(bundle.d.bits, bundle.d.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:760:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (bundle.c.fire() && c_first && edge.isRequest(bundle.c.bits)) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:783:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (bundle.d.fire() && d_first && edge.isResponse(bundle.d.bits) && d_release_ack) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:819:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (bundle.c.fire() || bundle.d.fire()) { watchdog := 0.U }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:819:37: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (bundle.c.fire() || bundle.d.fire()) { watchdog := 0.U }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:825:52: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val d_first = edge.first(bundle.d.bits, bundle.d.fire())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:829:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (bundle.d.fire() && d_first && edge.isRequest(bundle.d.bits)) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:835:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (bundle.e.fire() && e_first && edge.isResponse(bundle.e.bits)) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/Monitor.scala:856:11: method legalizeADSourceOld in class TLMonitor is deprecated: Use legalizeADSource instead if possible[0m
+[0m[[0m[33mwarn[0m] [0m[0m          legalizeADSourceOld(bundle, edge)[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/PatternPusher.scala:61:83: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val check  = Vec(pattern.map(p => Bool(p.dataIn.isDefined)))(step) holdUnless a.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/PatternPusher.scala:62:94: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val expect = Vec(pattern.map(p => UInt(p.dataIn.getOrElse(BigInt(0)))))(step) holdUnless a.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/PatternPusher.scala:63:24: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    assert (!check || !d.fire() || expect === d.bits.data)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/PatternPusher.scala:65:11: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (a.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/PatternPusher.scala:69:11: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (d.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/RAMModel.scala:91:16: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (in.a.fire()) { flight(in.a.bits.source) := a_flight }[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/RAMModel.scala:97:34: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val a_fire = Reg(next = in.a.fire(), init = Bool(false))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/RAMModel.scala:201:35: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val d_fire = Reg(next = out.d.fire(), init = Bool(false))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/SRAM.scala:274:14: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (in.a.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/SRAM.scala:306:21: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val a_fire = in.a.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/SourceShrinker.scala:70:29: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (a_first && in.a.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/SourceShrinker.scala:74:35: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        val alloc = a_first && in.a.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/SourceShrinker.scala:75:33: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        val free = d_last && in.d.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/ToAHB.scala:141:24: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        a_commit := in.a.fire() // every first beat commits to a D beat answer[0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/ToAHB.scala:143:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (in.a.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/ToAHB.scala:153:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (in.a.fire() && !a_hint) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/ToAHB.scala:211:51: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      d_flight := d_flight + a_commit.asUInt - in.d.fire().asUInt[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/ToAPB.scala:81:13: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (d.fire()) { a_enable := Bool(false) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/ToAXI4.scala:162:16: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (in.a.fire()) { doneAW := !a_last }[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/ToAXI4.scala:207:17: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (out.r.fire()) { r_holds_d := !out.r.bits.last }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/ToAXI4.scala:225:17: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (out.r.fire()) { r_first := out.r.bits.last }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/ToAXI4.scala:258:25: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        val inc = as && out_arw.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/ToAXI4.scala:259:38: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        val dec = ds && d_last && in.d.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/WidthWidget.scala:43:13: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (in.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/WidthWidget.scala:63:15: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (in.fire() && !last) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/WidthWidget.scala:103:13: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      when (out.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/tilelink/WidthWidget.scala:182:18: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        when (in.a.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/transforms/naming/RenameDesiredNames.scala:118:15: method record in trait RenameMap is deprecated (since FIRRTL 1.5): Use firrtl.renamemap.MutableRenameMap for recording renames[0m
+[0m[[0m[33mwarn[0m] [0m[0m      renames.record(oldMain.module(from), newMain.module(to))[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/unittest/UnitTest.scala:23:30: type MultiIOModule in package chisel3 is deprecated (since Chisel 3.5): MultiIOModule is now just Module[0m
+[0m[[0m[33mwarn[0m] [0m[0mtrait UnitTestModule extends MultiIOModule with HasUnitTestIO {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/Arbiters.scala:58:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.out.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/Arbiters.scala:85:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.out.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/AsyncQueue.scala:81:67: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val widx = withReset(reset.asAsyncReset)(GrayCounter(bits+1, io.enq.fire(), !sink_ready, "widx_bin"))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/AsyncQueue.scala:86:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.enq.fire()) { mem(index) := io.enq.bits }[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/AsyncQueue.scala:144:67: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val ridx = withReset(reset.asAsyncReset)(GrayCounter(bits+1, io.deq.fire(), !source_ready, "ridx_bin"))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/Broadcaster.scala:33:14: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (io.in.fire()) { save := io.in.bits }[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/Broadcaster.scala:35:17: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (io.out(idx).fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/CreditedIO.scala:59:14: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    debit := res.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/CreditedIO.scala:77:15: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    credit := res.fire()[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/HellaQueue.scala:12:19: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val do_enq = io.enq.fire() && !do_flow[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/HellaQueue.scala:13:19: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val do_deq = io.deq.fire() && !do_flow[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/LanePositionedQueue.scala:188:42: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val freed     = io.free  .map(x => Mux(x.fire(), x.bits, 0.U)).getOrElse(io.deq.ready)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/LanePositionedQueue.scala:189:42: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val committed = io.commit.map(x => Mux(x.fire(), x.bits, 0.U)).getOrElse(io.enq.valid)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/LanePositionedQueue.scala:539:11: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (c.fire()) { com := com + c.bits }[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/LanePositionedQueue.scala:547:11: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (f.fire()) { abt := abt + f.bits }[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/LanePositionedQueue.scala:553:27: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (r) { deq := Mux(f.fire(), abt + f.bits, abt) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/LanePositionedQueue.scala:559:27: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (a) { enq := Mux(c.fire(), com + c.bits, com) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/MultiPortQueue.scala:90:38: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  enq := enq + PopCount(q.io.enq.map(_.fire()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/MultiPortQueue.scala:91:38: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  deq := deq + PopCount(q.io.deq.map(_.fire()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/MultiPortQueue.scala:100:22: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    assert (!q.io.deq(i).fire() || q.io.deq(i).bits === deq_bits(i))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/MultiWidthFifo.scala:34:14: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (io.in.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/MultiWidthFifo.scala:39:14: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (io.out.fire()) { tail := tail + UInt(1) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/MultiWidthFifo.scala:42:11: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      (io.in.fire() && io.out.fire()) -> (size + UInt(nBeats - 1)),[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/MultiWidthFifo.scala:42:27: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      (io.in.fire() && io.out.fire()) -> (size + UInt(nBeats - 1)),[0m
+[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/MultiWidthFifo.scala:43:10: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      io.in.fire() -> (size + UInt(nBeats)),[0m
+[0m[[0m[33mwarn[0m] [0m[0m         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/MultiWidthFifo.scala:44:10: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      io.out.fire() -> (size - UInt(1))))[0m
+[0m[[0m[33mwarn[0m] [0m[0m         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/MultiWidthFifo.scala:63:14: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (io.in.fire()) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/MultiWidthFifo.scala:68:14: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    when (io.out.fire()) { tail := tail + UInt(1) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/MultiWidthFifo.scala:71:11: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      (io.in.fire() && io.out.fire()) -> (size - UInt(nBeats - 1)),[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/MultiWidthFifo.scala:71:27: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      (io.in.fire() && io.out.fire()) -> (size - UInt(nBeats - 1)),[0m
+[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/MultiWidthFifo.scala:72:10: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      io.in.fire() -> (size + UInt(1)),[0m
+[0m[[0m[33mwarn[0m] [0m[0m         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/MultiWidthFifo.scala:73:10: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m      io.out.fire() -> (size - UInt(nBeats))))[0m
+[0m[[0m[33mwarn[0m] [0m[0m         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/MultiWidthFifo.scala:96:59: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val (bl_send_cnt, bl_send_done) = Counter(big2little.io.in.fire(), 4)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/MultiWidthFifo.scala:97:59: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val (lb_send_cnt, lb_send_done) = Counter(little2big.io.in.fire(), 8)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/MultiWidthFifo.scala:99:59: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val (bl_recv_cnt, bl_recv_done) = Counter(big2little.io.out.fire(), 8)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/MultiWidthFifo.scala:100:59: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val (lb_recv_cnt, lb_recv_done) = Counter(little2big.io.out.fire(), 4)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/RationalCrossing.scala:92:9: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (enq.fire()) { count := Cat(count(0), !count(1)) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/RationalCrossing.scala:127:9: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (deq.fire()) { count := Cat(count(0), !count(1)) }[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/Repeater.scala:28:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.enq.fire() &&  io.repeat) { full := true.B; saved := io.enq.bits }[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/Repeater.scala:29:12: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  when (io.deq.fire() && !io.repeat) { full := false.B }[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/ShiftQueue.scala:30:34: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m          paddedValid(i+1) || io.enq.fire() && ((i == 0 && !flow).B || valid(i)),[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/ShiftQueue.scala:31:14: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m          io.enq.fire() && paddedValid(i-1) && !valid(i))[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/ShiftQueue.scala:36:34: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m          paddedValid(i+1) || io.enq.fire() && ((i == 0 && !flow).B || valid(i)),[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/centos/firesim/target-design/chipyard/generators/rocket-chip/src/main/scala/util/ShiftQueue.scala:37:14: method fire in class AddMethodsToReadyValid is deprecated (since Chisel 3.5): Calling this function with an empty argument list is invalid in Scala 3. Use the form without parentheses instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m          io.enq.fire() && paddedValid(i-1) || valid(i))[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were 2710 feature warnings; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0m339 warnings found[0m

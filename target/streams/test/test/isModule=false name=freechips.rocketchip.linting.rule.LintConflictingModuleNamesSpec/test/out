@@ -1,0 +1,4 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mLintConflictingModuleNamesSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- It should emit LintViolations for conflicting DesiredNameAnnotations[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- It should catch LintViolations not fixed by with RenameDesiredNames[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- RenameDesiredNames should be able to fix LintViolations[0m[0m
